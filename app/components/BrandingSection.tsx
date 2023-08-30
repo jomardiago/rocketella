@@ -8,7 +8,7 @@ export default function BrandingSection() {
     <section className="mt-16 border border-y-1 border-y-black relative">
       <Image
         src="/creative-people.jpg"
-        alt="Creative people"
+        alt="Creative people working and laughing"
         width={1000}
         height={1000}
         className="w-full h-[700px] object-cover opacity-40"
