@@ -34,6 +34,7 @@ export default function MeetTheFounder() {
             strategies and their ability to transform businesses. My journey has been shaped by a solid marketing and
             communications background, allowing me to navigate various industries, catering to both B2B and B2C markets.
           </p>
+          <button className="bg-neutral-500 text-white py-3 px-6 rounded-md w-[200px]">Read More...</button>
         </div>
       </div>
     </section>
