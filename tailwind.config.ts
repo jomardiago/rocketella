@@ -12,7 +12,9 @@ const config: Config = {
         transparent: 'transparent',
         current: 'currentColor',
         smoke: '#B5ACA3',
-        black: '#1A1713'
+        black: '#1A1713',
+        china: '#D4C8BE',
+        cotton: '#F2F3EC',
       },
     },
   },

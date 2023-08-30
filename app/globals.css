@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-stone-200 min-h-screen w-full text-black;
+  @apply bg-cotton min-h-screen w-full text-black;
 }
 
 .contained {
