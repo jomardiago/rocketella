@@ -15,6 +15,7 @@ const config: Config = {
         black: '#1A1713',
         china: '#D4C8BE',
         cotton: '#F2F3EC',
+        suede: '#B8926A'
       },
     },
   },

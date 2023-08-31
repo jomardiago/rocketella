@@ -5,6 +5,7 @@ import MeetTheFounderSection from './components/MeetTheFounderSection';
 import WhyWorkWithUsSection from './components/WorkWithUsSection';
 import BenefitsSection from './components/BenefitsSection';
 import WhatWeOfferSection from './components/WhatWeOfferSection';
+import GetInTouchSection from './components/GetInTouchSection';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <WhyWorkWithUsSection />
       <BenefitsSection />
       <WhatWeOfferSection />
+      <GetInTouchSection />
     </main>
   );
 }
