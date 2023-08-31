@@ -3,6 +3,7 @@ import BrandingSection from './components/BrandingSection';
 import WeTransformSection from './components/WeTransformSection';
 import MeetTheFounder from './components/MeetTheFounderSection';
 import WhyWorkWithUs from './components/WorkWithUsSection';
+import BenefitsSection from './components/BenefitsSection';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <WeTransformSection />
       <MeetTheFounder />
       <WhyWorkWithUs />
+      <BenefitsSection />
     </main>
   );
 }
