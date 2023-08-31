@@ -6,6 +6,7 @@ import WhyWorkWithUsSection from './components/WorkWithUsSection';
 import BenefitsSection from './components/BenefitsSection';
 import WhatWeOfferSection from './components/WhatWeOfferSection';
 import GetInTouchSection from './components/GetInTouchSection';
+import FooterSection from './components/FooterSection';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <BenefitsSection />
       <WhatWeOfferSection />
       <GetInTouchSection />
+      <FooterSection />
     </main>
   );
 }
