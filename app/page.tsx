@@ -1,9 +1,10 @@
 import HeroSection from './components/HeroSection';
 import BrandingSection from './components/BrandingSection';
 import WeTransformSection from './components/WeTransformSection';
-import MeetTheFounder from './components/MeetTheFounderSection';
-import WhyWorkWithUs from './components/WorkWithUsSection';
+import MeetTheFounderSection from './components/MeetTheFounderSection';
+import WhyWorkWithUsSection from './components/WorkWithUsSection';
 import BenefitsSection from './components/BenefitsSection';
+import WhatWeOfferSection from './components/WhatWeOfferSection';
 
 export default function Home() {
   return (
@@ -11,9 +12,10 @@ export default function Home() {
       <HeroSection />
       <BrandingSection />
       <WeTransformSection />
-      <MeetTheFounder />
-      <WhyWorkWithUs />
+      <MeetTheFounderSection />
+      <WhyWorkWithUsSection />
       <BenefitsSection />
+      <WhatWeOfferSection />
     </main>
   );
 }

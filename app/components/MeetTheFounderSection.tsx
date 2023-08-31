@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export default function MeetTheFounder() {
+export default function MeetTheFounderSection() {
   return (
     <section className="contained py-16">
       <div className="flex justify-between items-center px-16 w-[80%] mx-auto gap-16">

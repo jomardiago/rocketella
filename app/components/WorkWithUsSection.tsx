@@ -1,4 +1,4 @@
-export default function WhyWorkWithUs() {
+export default function WhyWorkWithUsSection() {
   return (
     <section className="text-center bg-neutral-500">
       <div className="contained py-16 px-36 text-xl space-y-4 text-white">
