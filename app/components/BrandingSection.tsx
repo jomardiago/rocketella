@@ -1,7 +1,4 @@
-import localFont from 'next/font/local';
 import Image from 'next/image';
-
-const josefinsansSemiBold = localFont({ src: '../../public/fonts/JosefinSans-SemiBold.ttf' });
 
 export default function BrandingSection() {
   return (
@@ -18,7 +15,7 @@ export default function BrandingSection() {
         <p className="w-[650px] text-center text-2xl">
           A ONE-STOP MARKETING AND CREATIVE AGENCY <span className="block">THAT PRODUCES TOP NOTCH</span>{' '}
           <span className="block">BRANDING SOLUTIONS FOR BUSINESSES,</span>
-          <span className={`${josefinsansSemiBold.className} text-3xl`}>BIG AND SMALL</span>
+          <span className="text-3xl font-semibold">BIG AND SMALL</span>
         </p>
       </div>
     </section>

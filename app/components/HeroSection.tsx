@@ -1,8 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import localFont from 'next/font/local';
-
-const josefinsansBold = localFont({ src: '../../public/fonts/JosefinSans-Bold.ttf' });
 
 export default function HeroSection() {
   return (
@@ -46,7 +43,7 @@ export default function HeroSection() {
           <Image src="/Icon-Logo-Black.png" alt="Rocketella" width={250} height={250} />
         </div>
         <p className="text-3xl font-extralight">We are Rocketella Studios.</p>
-        <p className={`${josefinsansBold.className} text-4xl`}>
+        <p className="text-4xl font-bold">
           Delivering beyond limitless creativity, by all means possible.
         </p>
       </div>

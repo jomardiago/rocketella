@@ -1,8 +1,9 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import { Josefin_Sans } from 'next/font/google'
 import localFont from 'next/font/local'
 
-const josefinsans = localFont({ src: '../public/fonts/JosefinSans-Regular.ttf' })
+const josefinSans = Josefin_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Rockettela',
@@ -21,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={josefinsans.className}>{children}</body>
+      <body className={josefinSans.className}>{children}</body>
     </html>
   );
 }

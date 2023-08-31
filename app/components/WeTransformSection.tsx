@@ -1,8 +1,4 @@
 import Image from 'next/image';
-import localFont from 'next/font/local';
-
-const josefinsansBold = localFont({ src: '../../public/fonts/JosefinSans-Bold.ttf' });
-const josefinsansLight = localFont({ src: '../../public/fonts/JosefinSans-Light.ttf' });
 
 export default function WeTransformSection() {
   return (
@@ -25,8 +21,8 @@ export default function WeTransformSection() {
             className="absolute left-16 -bottom-16"
           />
         </div>
-        <div className={`${josefinsansLight.className} flex-1 text-xl flex gap-6 flex-col`}>
-          <h2 className={`${josefinsansBold.className} text-2xl`}>We transform brands into an experience.</h2>
+        <div className="font-light flex-1 text-xl flex gap-6 flex-col">
+          <h2 className="text-2xl font-bold">We transform brands into an experience.</h2>
           <p>
             Rocketella Studios is a premier marketing and creative agency in the Philippines that handcrafts unique
             digital experience for modern businesses of various types and sizes.
