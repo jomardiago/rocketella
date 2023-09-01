@@ -2,15 +2,16 @@ import Image from 'next/image';
 
 export default function WeTransformSection() {
   return (
-    <section className="pt-16 border-b-[1px] border-black h-[650px] bg-white">
-      <div className="flex justify-between items-center px-16 w-[70%] mx-auto gap-16">
-        <div className="flex-1 relative">
+    <section className="pt-6 h-[500px] border-b-[1px] border-black bg-white md:pt-12 lg:h-[700px] lg:pt-10">
+      <div className="flex justify-between items-center mx-auto gap-16 px-4 md:px-14 md:w-[80%] lg:px-16 lg:w-[90%]">
+        <div className="hidden flex-1 relative lg:block">
           <Image
             src="/working-office.jpg"
             alt="Employees working on an office"
             width={300}
             height={500}
             quality={100}
+            className="lg:block"
           />
           <Image
             src="/holding-tablet.jpg"
@@ -18,11 +19,11 @@ export default function WeTransformSection() {
             width={300}
             height={500}
             quality={100}
-            className="absolute left-16 -bottom-16"
+            className="hidden lg:block lg:absolute lg:left-16 lg:-bottom-16"
           />
         </div>
-        <div className="font-light flex-1 text-xl flex gap-6 flex-col">
-          <h2 className="text-2xl font-bold">We transform brands into an experience.</h2>
+        <div className="font-light flex-1 flex flex-col text-lg gap-4 md:text-xl md:gap-8 lg:text-2xl lg:gap-6">
+          <h2 className="text-xl font-bold md:text-2xl lg:text-3xl">We transform brands into an experience.</h2>
           <p>
             Rocketella Studios is a premier marketing and creative agency in the Philippines that handcrafts unique
             digital experience for modern businesses of various types and sizes.
