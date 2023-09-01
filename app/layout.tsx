@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           referrerPolicy="no-referrer"
         />
       </head>
-      <body className={josefinSans.className}>{children}</body>
+      <body className={`${josefinSans.className} text-sm`}>{children}</body>
     </html>
   );
 }
