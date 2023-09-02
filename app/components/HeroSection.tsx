@@ -28,7 +28,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <nav className="w-[70%] mx-auto pt-16 flex justify-between">
+      <nav className="w-full mx-auto flex justify-between pt-6 gap-4 lg:w-[70%] lg:pt-16">
         <Link href="/" className="underline underline-offset-2">
           Home
         </Link>
@@ -40,17 +40,17 @@ export default function HeroSection() {
 
       <div className="mx-auto text-center pt-16 flex flex-col gap-4">
         <div className="flex justify-center">
-          <Image src="/Icon-Logo-Black.png" alt="Rocketella" width={250} height={250} />
+          <Image src="/Icon-Logo-Black.png" alt="Rocketella" width={250} height={250} quality={100} className="w-[170px] h-[170px] lg:w-[250px] lg:h-[250px]" />
         </div>
-        <p className="text-3xl font-extralight">We are Rocketella Studios.</p>
-        <p className="text-4xl font-bold">
+        <p className="text-2xl font-extralight md:text-3xl lg:text-3xl">We are Rocketella Studios.</p>
+        <p className="text-3xl font-bold lg:text-4xl">
           Delivering beyond limitless creativity, by all means possible.
         </p>
       </div>
 
-      <div className="pt-24 flex justify-center gap-28">
-        <button className="bg-neutral-500 text-white py-3 px-6 rounded-md w-[200px]">Talk to an Expert</button>
-        <button className="bg-neutral-500 text-white py-3 px-6 rounded-md w-[200px]">See our Work</button>
+      <div className="pt-8 gap-6 flex justify-center lg:pt-24 lg:gap-28">
+        <button className="bg-neutral-500 text-white rounded-md w-[200px] text-base py-2 px-4 lg:py-3 lg:px-6">Talk to an Expert</button>
+        <button className="bg-neutral-500 text-white rounded-md w-[200px] text-base py-2 px-4 lg:py-3 lg:px-6">See our Work</button>
       </div>
 
       <Image
