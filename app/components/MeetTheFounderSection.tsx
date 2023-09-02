@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function MeetTheFounderSection() {
   return (
-    <section className="contained py-6">
-      <div className="flex flex-col justify-between items-center mx-auto gap-16">
+    <section className="contained py-6 lg:px-32">
+      <div className="flex flex-col justify-between items-center mx-auto gap-16 lg:flex-row">
         <div className="flex-1 relative">
           <Image
             src="/Icon-Logo-Black.png"
@@ -11,7 +11,7 @@ export default function MeetTheFounderSection() {
             width={1000}
             height={1000}
             quality={100}
-            className="h-[300px] w-[300px] opacity-10"
+            className="h-[300px] w-[300px] opacity-10 lg:h-[450px] lg:w-[450px]"
           />
           <Image
             src="/founder.jpg"
@@ -19,7 +19,7 @@ export default function MeetTheFounderSection() {
             width={1000}
             height={1000}
             quality={100}
-            className="rounded-full h-[250px] w-[250px] object-cover object-bottom absolute top-12 left-4"
+            className="rounded-full h-[250px] w-[250px] object-cover object-bottom absolute top-12 left-4 lg:w-[350px] lg:h-[350px]"
           />
         </div>
         <div className="flex-1 text-lg flex gap-6 flex-col font-light md:text-xl">
