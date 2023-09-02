@@ -49,13 +49,13 @@ export default function WhatWeOfferSection() {
             <div className="flex flex-col gap-4 text-center lg:gap-16">
               <div>
                 <h2 className="font-bold lg:text-2xl">Strategy Consultation</h2>
-                <button className="bg-neutral-500 text-white rounded-md w-[200px] py-2 px-4 lg:py-3 lg:px-6 lg:text-lg">
+                <button className="bg-neutral-500 text-white rounded-md w-[200px] font-normal text-base py-2 px-4 lg:py-3 lg:px-6 lg:text-lg">
                   Learn More
                 </button>
               </div>
               <div>
                 <h2 className="font-bold lg:text-2xl">Content Creation</h2>
-                <button className="bg-neutral-500 text-white rounded-md w-[200px] py-2 px-4 lg:py-3 lg:px-6 lg:text-lg">
+                <button className="bg-neutral-500 text-white rounded-md w-[200px] font-normal text-base py-2 px-4 lg:py-3 lg:px-6 lg:text-lg">
                   Learn More
                 </button>
               </div>

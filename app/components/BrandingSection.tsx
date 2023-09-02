@@ -11,7 +11,7 @@ export default function BrandingSection() {
         className="w-full object-cover opacity-30 h-[500px] lg:h-[700px]"
         quality={100}
       ></Image>
-      <div className="absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%] w-full lg:w-[50%]">
+      <div className="absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
         <p className="w-full text-center text-xl md:text-2xl lg:text-3xl lg:w-[650px]">
           A ONE-STOP MARKETING AND CREATIVE AGENCY <span className="block">THAT PRODUCES TOP NOTCH</span>{' '}
           <span className="block">BRANDING SOLUTIONS FOR BUSINESSES,</span>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function WeTransformSection() {
   return (
-    <section className="pt-6 h-[500px] border-b-[1px] border-black bg-white md:pt-12 lg:h-[700px] lg:pt-10">
+    <section className="pt-6 h-[500px] border-b-[1px] border-black bg-white md:pt-12 lg:h-[700px] lg:pt-10 lg:px-32">
       <div className="flex justify-between items-center mx-auto gap-16 px-4 md:px-14 md:w-[80%] lg:px-16 lg:w-[90%]">
         <div className="hidden flex-1 relative lg:block">
           <Image
