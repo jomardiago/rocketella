@@ -5,7 +5,7 @@ export default function GetInTouchSection() {
         <h2 className="text-2xl text-white text-center">Let&apos;s skyrocket your business today!</h2>
         <span className="text-center text-lg">
           <p>Got a project? Let&apos;s make it happen!</p>
-          <p>Give us the details and we&apos; send you a free quote!</p>
+          <p>Give us the details and we&apos;ll send you a free quote!</p>
         </span>
         <button className="bg-suede text-white rounded-md w-[200px] text-lg font-normal py-2 px-4 lg:py-3 lg:px-6">Get in Touch</button>
       </div>
