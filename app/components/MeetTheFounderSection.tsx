@@ -22,8 +22,8 @@ export default function MeetTheFounderSection() {
             className="rounded-full h-[250px] w-[250px] object-cover object-bottom absolute top-12 left-4"
           />
         </div>
-        <div className="flex-1 text-lg flex gap-6 flex-col font-light">
-          <h2 className="text-xl font-bold">MEET THE FOUNDER</h2>
+        <div className="flex-1 text-lg flex gap-6 flex-col font-light md:text-xl">
+          <h2 className="text-xl font-bold md:text-2xl">MEET THE FOUNDER</h2>
           <p>
             Hello, Rocketeers! I&apos;m Yvette Ramos, the founder of this extraordinary marketing and creatives agency.
             With over 12 years of experience in the marketing industry, I have witnessed the power of effective

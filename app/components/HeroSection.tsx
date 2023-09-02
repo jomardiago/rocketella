@@ -42,7 +42,7 @@ export default function HeroSection() {
         <div className="flex justify-center">
           <Image src="/Icon-Logo-Black.png" alt="Rocketella" width={250} height={250} quality={100} className="w-[170px] h-[170px] lg:w-[250px] lg:h-[250px]" />
         </div>
-        <p className="text-2xl font-extralight lg:text-3xl">We are Rocketella Studios.</p>
+        <p className="text-2xl font-extralight md:text-3xl lg:text-3xl">We are Rocketella Studios.</p>
         <p className="text-3xl font-bold lg:text-4xl">
           Delivering beyond limitless creativity, by all means possible.
         </p>
