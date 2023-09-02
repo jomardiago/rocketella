@@ -50,14 +50,14 @@ export default function BenefitsSection() {
 
   return (
     <section>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-col justify-center">
         {items.map((item) => (
-          <div key={item.id} className="basis-1/3 border border-neutral-500 text-center text-lg px-28 py-12 bg-white h-[600px]">
+          <div key={item.id} className="border border-neutral-500 text-center text-lg px-4 py-6 bg-white">
             <div className="flex justify-center">
-              <Image src={item.imageSrc} alt={item.imageAlt} width={50} height={50} quality={100} />
+              <Image src={item.imageSrc} alt={item.imageAlt} width={50} height={50} quality={100} className="w-[40px] h-[40px]" />
             </div>
             <h2 className="text-xl font-bold">{item.title}</h2>
-            <p className="pt-6 font-light">{item.content}</p>
+            <p className="pt-4 text-lg font-light">{item.content}</p>
           </div>
         ))}
       </div>
