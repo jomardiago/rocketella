@@ -49,8 +49,8 @@ export default function HeroSection() {
       </div>
 
       <div className="pt-8 gap-6 flex justify-center lg:pt-24 lg:gap-28">
-        <button className="bg-neutral-500 text-white rounded-md w-[200px] py-2 px-4 lg:py-3 lg:px-6">Talk to an Expert</button>
-        <button className="bg-neutral-500 text-white rounded-md w-[200px] py-2 px-4 lg:py-3 lg:px-6">See our Work</button>
+        <button className="bg-neutral-500 text-white rounded-md w-[200px] text-base py-2 px-4 lg:py-3 lg:px-6">Talk to an Expert</button>
+        <button className="bg-neutral-500 text-white rounded-md w-[200px] text-base py-2 px-4 lg:py-3 lg:px-6">See our Work</button>
       </div>
 
       <Image
